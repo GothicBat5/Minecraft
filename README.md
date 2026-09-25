@@ -1,2 +1,4 @@
-# Minecraft
-The Minecraft modding API for Java Edition.
+# Minecraft Modding API !
+
+> The Minecraft modding API for Minecraft modification
+
