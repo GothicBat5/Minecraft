@@ -14,9 +14,9 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.phys.BlockHitResult;
 
-public final class c extends Block implements EntityBlock 
+public final class CrafterBlock extends Block implements EntityBlock 
 {
-    public static final BooleanProperty ON = BooleanProperty.create("on");
+    public static final BooleanProperty LIT = BooleanProperty.create("on");
 
     // EntityBlock's default ticker is null; this block entity only stores data.
 
@@ -29,7 +29,7 @@ public final class c extends Block implements EntityBlock
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) 
     {
-        builder.add(ON);
+        builder.add(LIT);
     }
 
     @Override
