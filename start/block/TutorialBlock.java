@@ -23,7 +23,7 @@ public final class CrafterBlock extends Block implements EntityBlock
     public TutorialBlock(BlockBehaviour.Properties properties) 
     {
         super(properties);
-        registerDefaultState(stateDefinition.any().setValue(ON, false));
+        registerDefaultState(stateDefinition.any().setValue(LIT, false));
     }
 
     @Override
